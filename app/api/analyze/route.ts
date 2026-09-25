@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { searchDex } from "@/lib/market";
 import { runAgent } from "@/lib/agent";
-import { getSupabaseAdmin } from "@/lib/supabase-admin";
+import { getSupabaseAdmin } from "../../../lib/supabase-admin";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
